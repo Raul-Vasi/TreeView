@@ -1,0 +1,11 @@
+@(root: String)
+
+@main("Tree") {
+@Html(root)
+
+        <script type="text/javascript">
+	$(function() {
+		$('#root_tree').fileTreeView('#expandAll', '#collapseAll', 'folder');
+	});
+</script>
+}
